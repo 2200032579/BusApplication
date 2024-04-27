@@ -61,7 +61,7 @@ function Details() {
     }
 
     const { data } = await axios.post(
-      "https://blue-bus.onrender.com/api/payment/ticket",
+      "https://bus-app-backend.vercel.app/api/payment/ticket",
       {
         amount: amount,
       }

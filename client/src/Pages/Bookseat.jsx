@@ -31,7 +31,7 @@ function Bookseat() {
   async function getdata() {
     // console.log(param.id);
     try {
-      let res = await axios.post("https://our-bus.onrender.com/bus/one", {
+      let res = await axios.post("https://bus-app-backend.vercel.app/bus/one", {
         id: param.id,
       });
       // console.log("OK", res.data);

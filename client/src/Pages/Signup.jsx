@@ -35,7 +35,7 @@ function Signup() {
     } else {
       try {
         let response = await axios.post(
-          "http://localhost:8080/user/signup",
+          "http://bus-app-backend.vercel.app/user/signup",
           signUpcreds
         );
         console.log(response);
